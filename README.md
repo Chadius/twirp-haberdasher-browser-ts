@@ -1,12 +1,12 @@
 # Browser example
-Start your twirp server. I assume it's on port 8080.
+Start your twirp server. Probably in the `twirp-haberdasher-server` folder.
+This project assumes it runs on port 8080.
+`go run cmd/server/main.go`
 
-Start a second server to host your files. I assume it's on port 7800.
+Start this project. By default, it goes to port 3000.
+`npm run dev`
 
-In a terminal, go to this project and start your browser. I use python3.
-`python3 -m http.server 7800`
-
-Go to the `src/index.html` file and open the console. You should see a hat in the console logs.
+Go to `localhost:3000` and open the console. You should see a hat in the console logs.
 
 ## What's the target URL?
 https://twitchtv.github.io/twirp/docs/routing.html
